@@ -1,0 +1,497 @@
+@charset "UTF-8";
+html {
+    font-size: 10px;
+}
+body{
+    font-family: 'Yu Mincho',sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #000000;
+    background-color: #E2E2E2;
+}
+.headerFlex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #F5F0F0;
+    border: 1px solid #707070;  
+}
+h1 {
+    font-size: 7rem;
+    color: #707070;
+    padding-left: 20px;
+    margin: 0 89px 0 121px;
+}
+.headerNav {
+    flex-grow: 2;
+}
+.headerNav .headerUl {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+.headerNav .headerUl li a {
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #707070;
+}
+header .headerContact {
+     margin-left: 352px;
+}
+header .headerContact a {
+    font-size: 7rem;
+    color: #FFFFFF;
+    text-decoration: none; 
+    display: block;
+    border: 1px solid #707070;
+}
+header .headerContact div {
+   background-color: #000000;
+   padding: 40.2px 110px 40px;
+}
+.headerImg img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #707070;
+    margin-bottom: 118px;
+}
+/* メイン 共通*/
+.innerWrap {
+    width: 1567px;
+    margin: 0 auto;
+    padding: 50px 0 0 20px;
+}
+h2 {
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+span, 
+.aboutAbout p,
+section .companyDl,
+address p {
+    font-size: 2.5rem;
+}
+span {
+    margin-bottom: 69.5px;
+    padding-bottom: 31.5px;
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+}
+/*メイン */
+article .newsAricle {
+    display: flex;
+
+}
+article .newsAricle > * + * {
+    padding-left: 29.5px;
+    border-left: 2px solid #000000;
+}
+time {
+    font-size: 3rem;
+    margin-right: 14px;
+}
+button {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    padding: 12px 32px 9px;
+    border: 1px solid #707070;
+    margin-bottom: 41px;
+}
+article h3 {
+    font-size: 3rem;
+    margin-right: 31.5px;
+    width: 100%;
+}
+.adoutFlex {
+    display: flex;
+    margin-top: 74px;
+}
+.adoutFlex img {
+    border: 1px solid #707070;
+    height: 458px;
+    display: block;
+    margin-bottom: 212px;
+}
+.adoutFlex .aboutAbout {
+margin: 159px 0 0 92px;
+}
+aside nav ul .businessFlex {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+aside nav ul .businessFlex > * + * {
+    margin-left: 110px;
+}
+.businessFlex li {
+    list-style: none;
+}
+aside img {
+    border: 1px solid #707070;
+}
+.businessFlex li p {
+    font-size: 3rem;
+}
+.businessFlex .businessItem1 {
+    margin-top: 113px;
+}
+.businessFlex .businessItem3 {
+    margin: 116px 0 203px;
+}
+.companyDl {
+    width: 100%;
+}
+.companyFlex {
+    display: flex;
+    justify-content: center;
+}
+section .companyImg img {
+    width:  864px;
+    height: 709px;
+    border: 1px solid #707070;
+}
+section .companyItem {
+    width: 877px;
+    height: 968px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    display: inline-block;
+}
+section .companyItem {
+    padding: 82px 0 0 77px;
+}
+.companyItem .companyDl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.companyItem .companyDl > * + *{
+    margin-top: 38px;
+}
+.companyItem .companyDl dt {
+    width: 20%;
+}
+.companyItem .companyDl dd {
+    width: 80%;
+}
+.companyItem .companyDl .g-1 {
+    margin-top: 0;
+}
+.companyFlex .companyImg {
+    margin: 159px 0 0 -100px;
+   margin-bottom: 313px;
+}
+footer {
+    height: 287px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+}
+.webFlex {
+    display: flex;
+    justify-content: space-around;
+}
+footer h3 {
+    font-size: 7rem;
+   margin: 50px 0px 23px 0px;
+}
+footer address {
+    margin-top: 53px;
+}
+footer address p {
+    line-height: 1.3;
+}
+footer address a {
+    text-decoration: none;
+    color: #000000;
+}
+footer .webFooter p {
+    font-size: 3rem;
+}
+
+/* パソコン */
+@media screen and (min-width:1025px) and (max-width:1480px){
+    html{
+        font-size: 6.7px;
+    }
+    .adoutFlex,
+    aside nav ul .businessFlex,
+    .companyFlex {
+       display: block;
+    }
+    img {
+        height: auto;
+    }
+    .adoutFlex img {
+        width: 100%;
+    }
+    .innerWrap {
+        width: 100%;
+    }
+    .adoutFlex .aboutAbout {
+        margin: 0px;
+    }
+    h1 {
+        margin: 0 79px 0 0px;
+    }
+    .headerNav .headerUl li a {
+        margin-right: 20px;
+    }
+    header .headerContact {
+       margin-left: 20px;
+   }
+   .headerFlex {
+    flex-wrap: nowrap;
+    height: auto;
+}
+header .headerContact div {
+    padding: 30px 50px 30px;
+ }
+ .businessFlex .businessItem3 {
+    margin-top: 203px;
+ }
+ .businessFlex li {
+    margin-top: 203px;
+ } 
+ .companyFlex {
+    margin-top: 153px;
+ }
+ .companyFlex .companyImg {
+    margin: -180px 0px 313px 100px;
+}
+}
+/* タブレット*/
+@media screen and (min-width:481px) and (max-width:1024px){
+    /* 共通 */
+    html{
+        font-size: 5.8px;
+    }
+    .adoutFlex,
+    aside nav ul .businessFlex,
+    .companyFlex,
+    article .newsAricle {
+       display: block;
+    }
+    img {
+        height: auto;
+    }
+    .innerWrap {
+        width: 100%;
+    }
+   /* ヘッダー */
+    h1 {
+        margin: 0 79px 0 0px;
+    }
+    .headerNav .headerUl li a {
+       margin: 0 10px;
+    }
+    header .headerContact {
+       margin-left: 20px;
+       width: 100%;
+   }
+   .headerFlex {
+    flex-wrap: nowrap;
+    height: auto;
+}
+    header .headerContact div {
+    padding: 30px 50px 30px;
+ }
+ header .headerNav{
+    position: fixed; 
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+}
+
+ /* ニュース */
+    article .newsAricle > * + * {
+    padding-left: 0px;
+    border-left: none;
+ }
+ .newsAricle > * + * {
+    margin-top: 50px;
+ }
+ button {
+    margin-bottom: 5px;
+ }
+
+ /* 私たち */
+    .adoutFlex img{
+     width: 100%;
+     height: auto;
+ }
+    .adoutFlex .aboutAbout {
+     margin: 0px;
+    }
+
+ /* 事業内容 */
+ aside nav ul .businessFlex > * + * {
+    margin-left: 0px;
+    }
+aside img {
+    max-width: 100%;
+    }
+aside nav ul .businessFlex {
+    padding-left: 0;
+    padding-right: 20px;
+}
+ .businessFlex .businessItem3 {
+    margin-top: 203px;
+ }
+ .businessFlex li {
+    margin-top: 203px;
+ } 
+
+ /* 会社情報 */
+ .companyFlex {
+    margin-top: 153px;
+    padding-right: 20px;
+ }
+ section .companyItem {
+   max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-bottom: 116px;
+}
+ .companyFlex .companyImg {
+    margin: 0px 0px 313px 0px;
+}
+.companyFlex .companyImg img {
+   max-width: 100%;
+   height: auto;
+}
+}
+
+/* 携帯 */
+@media screen and (max-width:480px) {
+     /* 共通 */
+     html{
+        font-size: 5.8px;
+    }
+    .adoutFlex,
+    aside nav ul .businessFlex,
+    .companyFlex,
+    article .newsAricle {
+       display: block;
+    }
+    img {
+        height: auto;
+    }
+    .innerWrap {
+        width: 100%;
+    }
+   /* ヘッダー */
+    h1 {
+        margin: 0 79px 20px 0px;
+    }
+    .headerNav .headerUl li a {
+      margin-right: 8px;
+    }
+    header .headerContact {
+       margin-left: 20px;
+       width: 188px;
+   }
+   .headerFlex {
+    flex-wrap: nowrap;
+    height: auto; 
+    display: block;
+    text-align: start;
+    padding: 50px 0 50px;
+}
+    header .headerContact div {
+    padding: 15px 30px 15px;
+    border-radius: 20px;
+ }
+ header .headerContact a {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px gray;
+ }
+ header .headerNav{
+   position: fixed; 
+   top: 0;
+   left: 0;
+   width: 500px;
+   z-index: 100;
+}
+.headerNav .headerUl {
+    justify-content: start;
+}
+ /* ニュース */
+    article .newsAricle > * + * {
+    padding-left: 0px;
+    border-left: none;
+ }
+ .newsAricle > * + * {
+    margin-top: 50px;
+ }
+ button {
+    margin-bottom: 5px;
+ }
+ /* 私たち */
+    .adoutFlex img{
+     width: 100%;
+     height: auto;
+ }
+    .adoutFlex .aboutAbout {
+     margin: 0px;
+    }
+
+ /* 事業内容 */
+ aside nav ul .businessFlex > * + * {
+    margin-left: 0px;
+    }
+aside img {
+    max-width: 100%;
+    }
+aside nav ul .businessFlex {
+    padding-left: 0;
+    padding-right: 20px;
+}
+ .businessFlex .businessItem3 {
+    margin-top: 203px;
+ }
+ .businessFlex li {
+    margin-top: 203px;
+ } 
+
+ /* 会社情報 */
+ .companyFlex {
+    margin-top: 153px;
+    padding-right: 20px;
+ }
+ section .companyItem {
+   max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-bottom: 116px;
+}
+ .companyFlex .companyImg {
+    margin: 0px 0px 313px 0px;
+}
+.companyFlex .companyImg img {
+   max-width: 100%;
+   height: auto;
+}
+.companyItem .companyDl {
+    display: inline-block;
+}
+.companyItem .companyDl dt {
+    width: auto;
+}
+.companyItem .companyDl > * + * {
+    margin: 0;
+}
+.companyItem .companyDl dd {
+    margin-bottom: 25px;
+}
+section .companyItem {
+    padding: 50px 0 0 50px;
+}
+}
