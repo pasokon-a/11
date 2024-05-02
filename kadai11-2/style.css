@@ -407,11 +407,13 @@ aside nav ul .businessFlex {
     header .headerContact div {
     padding: 15px 30px 15px;
     border-radius: 20px;
+    text-align: center;
  }
  header .headerContact a {
     width: 100%;
     border-radius: 20px;
     box-shadow: 4px 4px 4px gray;
+    font-size: 4.5rem
  }
  header .headerNav{
    position: fixed; 
